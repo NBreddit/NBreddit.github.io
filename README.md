@@ -1,2 +1,2 @@
-# NBreddit.github.io
+# NBreddit
 Flair selector for /r/NarutoBlazing

@@ -67,6 +67,10 @@ blockquote {
 	margin: 10px;
 }
 
+em {
+	color: #8cd488;
+}
+
 ul {
 	display: inline-block;
 	margin: auto;

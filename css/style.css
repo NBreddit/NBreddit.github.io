@@ -1,3 +1,160 @@
+html {
+	overflow-y: scroll;
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
+	background: url(../images/bg.jpg);
+	background-attachment: fixed;
+	margin: 0;
+}
+
+/*TOP SECTION*/
+.container1 {
+	background: url(../images/bg1.png);
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+	height: 340px;
+}
+
+#flair {
+	position: relative;
+  top: 10px;
+  background-color: transparent!important;
+}
+
+input {
+	border-radius: 2px;
+	border: 0;
+	padding: 2px;
+}
+
+#request {
+	background: url(../images/button.png) no-repeat;
+	height: 40px;
+	width: 180px;
+	margin: auto;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+#request:hover {
+	transform: scale(.97);
+}
+
+h1 {
+	background: url(../images/h1.png);
+	text-indent: -9999px;
+	width: 199px;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+}
+
+blockquote {
+	background: rgba(255,255,255,0.15);
+	border-left: 2px solid #dc822b;
+	color: #fff3db;
+	padding: 3px;
+	border-radius: 2px;
+}
+
+#instructions {
+	margin: 10px;
+}
+
+ul {
+	display: inline-block;
+	margin: auto;
+	list-style-image: url(../images/ul.png);
+}
+
+li {
+	text-align: left;
+	color: #e4e0e0;
+}
+
+/*FLAIR SECTION*/
+.container2 {
+	width:100%;
+	max-width:910px;
+	margin: auto;
+	background:url(../images/mid.png);
+	margin-top:8px;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+
+.container2:before {
+	content:'';
+	background:url(../images/top.png);
+	height:32px;
+	width:920px;
+	position:absolute;
+	right:0;
+	left:0;
+	margin:auto;
+	margin-top: -8px;
+	pointer-events: none;
+}
+
+.container2:after {
+	content:'';
+	background:url(../images/bot.png);
+	height:32px;
+	width:920px;
+	position:absolute;
+	right:0;
+	left:0;
+	margin:auto;
+	pointer-events:none;
+	margin-top: -25px;
+}
+
+#content {
+	margin-left: 15px;
+}
+
+/*FOOTER*/
+#footer {
+	background: url(../images/footer.jpg);
+	color: #fff;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#footer a {color:#ff8227;}
+
+.backtop {
+	position:fixed;
+	right:5px;
+	bottom:30px;
+}
+
+/*BACK TO TOP*/
+#backtop {
+	position:relative;
+	background:url(../images/pagetop.png);
+	width:115px;
+	height:100px;
+	display:block;
+	}
+
+#backtop:hover {animation: updown 1s ease-out 0s infinite;}
+@keyframes updown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }

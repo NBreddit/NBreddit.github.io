@@ -28,7 +28,6 @@ function fselect(vnum) {
 
   //Updates current flair selection preview
    document.getElementById("flair").className = "flair flair-" + vnum;
-   document.getElementById("flair").src = "/flairs/" + vnum + ".png";
    choice = vnum;
 }
 

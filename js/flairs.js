@@ -431,13 +431,10 @@ var z = 1;
 			'zori': 'placeholder',
 		}
 
-		//creates HTML for flairs
+		//creates HTML for special flairs
 		for (var v in name) {
 			if (name.hasOwnProperty(v)) {
-				var getImage = '/flairs/'  +	v + '.png';
-
-				var flairs = document.createElement('img');
-				flairs.setAttribute('src', getImage);
+				var flairs = document.createElement('span');
 				flairs.setAttribute('class', 'flair flair-'+v+'');
 				flairs.setAttribute('name', v);
 				flairs.setAttribute('onclick', 'fselect("'+v+'")');

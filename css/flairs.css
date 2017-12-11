@@ -1,7 +1,7 @@
 .flair {
 	display: inline-block;
 	height: 40px;
-	width: 35px;
+	min-width: 35px;
 	cursor:pointer;
 	margin-right: 9px;
 	margin-top: 9px;

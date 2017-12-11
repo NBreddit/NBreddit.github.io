@@ -25,9 +25,10 @@ function fselect(vnum) {
 
   //Add to current
   current.className += " selected";
-  	
+
   //Updates current flair selection preview
    document.getElementById("flair").className = "flair flair-" + vnum;
+   document.getElementById("flair").src = "/images/flairs/" + vnum + ".png";
    choice = vnum;
 }
 
@@ -39,21 +40,21 @@ function flairFilter() {
 
   var id = document.getElementById("content");
   var x = id.getElementsByClassName("flair");
-  
+
   for (var i=0;i<x.length;i++) {
     if (filter.test(x[i].getAttribute("name"))) {
       x[i].style.display="";
     } else {
       x[i].style.display="none";
-    }   
+    }
   }
-    
+
 }
 
 
 $(document).ready(function() {
   $('#backtop').hide();
-  
+
   //back to top scroll button
   $(window).scroll(function() {
 

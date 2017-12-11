@@ -434,7 +434,7 @@ var z = 1;
 		//creates HTML for flairs
 		for (var v in name) {
 			if (name.hasOwnProperty(v)) {
-				var getImage = '/images/flairs/'  +	v + '.png';
+				var getImage = '/flairs/'  +	v + '.png';
 
 				var flairs = document.createElement('img');
 				flairs.setAttribute('src', getImage);

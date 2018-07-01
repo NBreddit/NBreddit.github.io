@@ -7,7 +7,7 @@ var z = 1;
 		var enter = document.getElementById('content');
 
 		var name = {
-		'3rdA': 'placeholder',
+'3rdA': 'placeholder',
 '3rdA1': 'placeholder',
 'A': 'placeholder',
 'A1': 'placeholder',
@@ -183,6 +183,9 @@ var z = 1;
 'jiraiya6': 'placeholder',
 'jiraiya7': 'placeholder',
 'jiraiya8': 'placeholder',
+'jiraiya9': 'placeholder',
+'jiraiya10': 'placeholder',
+'jiraiya11': 'placeholder',
 'jirobo': 'placeholder',
 'jirobo1': 'placeholder',
 'jirobo2': 'placeholder',
@@ -382,6 +385,8 @@ var z = 1;
 'pain6': 'placeholder',
 'pain7': 'placeholder',
 'pain8': 'placeholder',
+'pain9': 'placeholder',
+'pain10': 'placeholder',
 'raido': 'placeholder',
 'rasa': 'placeholder',
 'rasa1': 'placeholder',
@@ -526,6 +531,9 @@ var z = 1;
 'tsunade6': 'placeholder',
 'tsunade7': 'placeholder',
 'tsunade8': 'placeholder',
+'tsunade9': 'placeholder',
+'tsunade10': 'placeholder',
+'tsunade11': 'placeholder',
 'utakata': 'placeholder',
 'utakata1': 'placeholder',
 'waraji': 'placeholder',

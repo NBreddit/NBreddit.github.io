@@ -1,18 +1,3 @@
-.flair {
-	display: inline-block;
-	height:40px;
-	min-width:35px;
-	cursor:pointer;
-	margin-right:9px;
-	margin-top:9px;
-	background:url(../images/flairs.png) no-repeat -9999px;
-}
-
-.flair:hover,.selected {
-	background-color: #3498db;
-}
-
-
 .md [href$="-3rdA"], .flair-3rdA{background-position:0 0;min-width:27px;}
 .md [href$="-3rdA1"], .flair-3rdA1{background-position:0 -40px;}
 .md [href$="-A"], .flair-A{background-position:0 -80px;}

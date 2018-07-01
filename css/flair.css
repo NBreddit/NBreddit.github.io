@@ -1,0 +1,13 @@
+.flair {
+	display: inline-block;
+	height:40px;
+	min-width:35px;
+	cursor:pointer;
+	margin-right:9px;
+	margin-top:9px;
+	background:url(../images/flairs.png) no-repeat -9999px;
+}
+
+.flair:hover,.selected {
+	background-color: #3498db;
+}

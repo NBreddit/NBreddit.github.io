@@ -48,6 +48,8 @@ var z = 1;
 			'chojuro2': 'placeholder',
 			'chojuro3': 'placeholder',
 			'choza': 'placeholder',
+			'dai': 'placeholder',
+			'dai1': 'placeholder',
 			'danzo': 'placeholder',
 			'danzo1': 'placeholder',
 			'darui': 'placeholder',
@@ -58,6 +60,9 @@ var z = 1;
 			'deidara3': 'placeholder',
 			'deidara4': 'placeholder',
 			'deidara5': 'placeholder',
+			'deidara6': 'placeholder',
+			'deidara7': 'placeholder',
+			'deidara8': 'placeholder',
 			'dosu': 'placeholder',
 			'ebisu': 'placeholder',
 			'fuguki': 'placeholder',
@@ -433,6 +438,9 @@ var z = 1;
 			'sasori2': 'placeholder',
 			'sasori3': 'placeholder',
 			'sasori4': 'placeholder',
+			'sasori5': 'placeholder',
+			'sasori6': 'placeholder',
+			'sasori7': 'placeholder',
 			'sasuke': 'placeholder',
 			'sasuke1': 'placeholder',
 			'sasuke2': 'placeholder',
@@ -572,7 +580,7 @@ var z = 1;
 			'zetsu': 'placeholder',
 			'zetsu1': 'placeholder',
 			'zori': 'placeholder',
-		}
+			}
 
 		//creates HTML for special flairs
 		for (var v in name) {

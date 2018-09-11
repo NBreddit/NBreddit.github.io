@@ -16,6 +16,8 @@ var z = 1;
 			'ameyuri': 'placeholder',
 			'ameyuri1': 'placeholder',
 			'anko': 'placeholder',
+			'anko1': 'placeholder',
+			'anko2': 'placeholder',
 			'ashura': 'placeholder',
 			'ashura1': 'placeholder',
 			'asuma': 'placeholder',
@@ -281,6 +283,7 @@ var z = 1;
 			'kushina2': 'placeholder',
 			'kushina3': 'placeholder',
 			'kushina4': 'placeholder',
+			'kushina6': 'placeholder',
 			'leaf-anbu-female': 'placeholder',
 			'leaf-anbu-male': 'placeholder',
 			'leaf-chunin-male': 'placeholder',
@@ -301,6 +304,8 @@ var z = 1;
 			'madara6': 'placeholder',
 			'madara7': 'placeholder',
 			'madara8': 'placeholder',
+			'madara9': 'placeholder',
+			'madara10': 'placeholder',
 			'mahiru': 'placeholder',
 			'mangetsu': 'placeholder',
 			'mangetsu1': 'placeholder',
@@ -318,6 +323,8 @@ var z = 1;
 			'minato7': 'placeholder',
 			'minato8': 'placeholder',
 			'minato9': 'placeholder',
+			'minato10': 'placeholder',
+			'minato11': 'placeholder',
 			'mist-anbu-male': 'placeholder',
 			'mist-chunin-male': 'placeholder',
 			'misumi': 'placeholder',
@@ -407,6 +414,8 @@ var z = 1;
 			'pain8': 'placeholder',
 			'pain9': 'placeholder',
 			'pain10': 'placeholder',
+			'pain11': 'placeholder',
+			'pain12': 'placeholder',
 			'raido': 'placeholder',
 			'rasa': 'placeholder',
 			'rasa1': 'placeholder',
@@ -415,8 +424,8 @@ var z = 1;
 			'rin2': 'placeholder',
 			'roshi': 'placeholder',
 			'roshi1': 'placeholder',
-			'rou1': 'placeholder',
 			'rou': 'placeholder',
+			'rou1': 'placeholder',
 			'sai': 'placeholder',
 			'sai1': 'placeholder',
 			'sai2': 'placeholder',
@@ -595,8 +604,7 @@ var z = 1;
 			'zaku': 'placeholder',
 			'zetsu': 'placeholder',
 			'zetsu1': 'placeholder',
-			'zori': 'placeholder',
-					}
+			'zori': 'placeholder',}
 
 		//creates HTML for special flairs
 		for (var v in name) {

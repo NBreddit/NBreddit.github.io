@@ -615,7 +615,7 @@ var z = 1;
 			'zaku': 'placeholder',
 			'zetsu': 'placeholder',
 			'zetsu1': 'placeholder',
-			'zori': 'placeholder',
+			'zori': 'placeholder',}
 
 		//creates HTML for special flairs
 		for (var v in name) {

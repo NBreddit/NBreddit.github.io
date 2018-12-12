@@ -6,7 +6,7 @@ var z = 1;
 	loadFlairs = function() {
 		var enter = document.getElementById('content');
 
-		var name = '3rdA': 'placeholder',
+		var name = {'3rdA': 'placeholder',
 '3rdA1': 'placeholder',
 'A': 'placeholder',
 'A1': 'placeholder',
